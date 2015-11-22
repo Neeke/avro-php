@@ -1,0 +1,7 @@
+Name: avro-c
+Description: C library for parsing Avro data
+Version: 1.7.4
+URL: http://avro.apache.org/
+Libs: -L/home/neeke/www/avro/json2avro.make/avrolib/lib -lavro
+Cflags: -I/home/neeke/www/avro/json2avro.make/avrolib/include
+Requires: zlib liblzma libsnappy

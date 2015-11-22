@@ -1,0 +1,17 @@
+{"namespace": "com.dmyz.avro",
+    "protocol": "Post",
+    "types": [
+        {"name": "Action", "type": "record",
+            "fields": [
+                {"name": "url","type": "string"},
+                {"name": "charset","type": "string"}
+            ]
+        }
+    ],
+    "messages": {
+        "send": {
+            "request": [{"name": "message", "type": "Action"}],
+            "response": "string"
+        }
+    }
+}
